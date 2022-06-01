@@ -1,4 +1,4 @@
-package posts.postspring.service.dto;
+package posts.postspring.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

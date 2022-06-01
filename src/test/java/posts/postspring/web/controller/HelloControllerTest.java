@@ -1,4 +1,4 @@
-package posts.postspring.controller;
+package posts.postspring.web.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

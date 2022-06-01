@@ -1,11 +1,9 @@
-package posts.postspring.service.dto;
+package posts.postspring.web.dto;
 
-import org.assertj.core.api.AbstractStringAssert;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import posts.postspring.web.dto.HelloResponseDto;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class HelloResponseDtoTest {
 

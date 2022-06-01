@@ -1,4 +1,4 @@
-package posts.postspring.domain.posts;
+package posts.postspring.domain;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -28,6 +28,11 @@ public class Posts {
         this.title = title;
         this.content = content;
         this.author = author;
+    }
+
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
     }
 }
 
