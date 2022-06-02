@@ -1,5 +1,6 @@
 package posts.postspring.domain;
 
+import com.fasterxml.jackson.databind.ser.Serializers;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import javax.persistence.*;
 @NoArgsConstructor  // 기본생성자 자동추가
 @Getter
 @Entity
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // PK 자동생성
